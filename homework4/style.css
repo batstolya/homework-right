@@ -5,7 +5,7 @@ body {
 .header_item {
     font-size: 36px;
     font-weight: bold;
-    color: cornsilk;
+    color: #FFFFFF;
     background-color: #A52A2A;
     text-align: center;
     padding-top: 3px;
@@ -50,7 +50,7 @@ td {
 .footer_item {
     font-size: 20px;
     text-align: center;
-    color: cornsilk;
+    color: #FFFFFF;
     background-color: #000000;
     margin-top: 40px;
     margin-bottom: 40px;
