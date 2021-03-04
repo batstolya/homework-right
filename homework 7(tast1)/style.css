@@ -1,0 +1,164 @@
+
+
+.container {
+    width: 940px;
+    height: 418px;
+    margin: 0 auto;
+
+    padding: 143px 205px 110px 203px ;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.who{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #898f99;
+    margin: 0px;
+
+    box-sizing: border-box;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #0ec8cb;
+
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+
+
+
+.container__item{
+    width: 940px;
+    margin: 0 auto;
+
+
+    display: flex;
+  
+    
+    box-sizing: border-box;
+}
+
+.box {
+    width: 240px;
+    height: 420px;
+    background-color: #f7f7f7;
+    /* border: 1px solid rgb(177, 177, 180); */
+    text-align: center;
+    padding-top:56px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 34px;
+    width: 201px;
+    
+ 
+}
+
+.box>p{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: #777777;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.box:hover p{
+    color: white;
+    margin-top: 30px;
+}
+
+.box:hover {
+    background-color: #0ec8cb;
+    transition: all .1s ease-in;
+    color: white;
+   
+}
+
+
+
+.icon{
+    width: 64px;
+    height: 64px;
+    
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    transition: background-color .3s ease-in-out;
+    margin: 0 auto;
+    padding-bottom: 39px;
+
+
+}
+
+
+
+/* Анимация иконок */
+.icon1{
+    background-image: url(icon/Anchor.svg);
+}
+.box:hover .icon1{
+    background-image: url(icon/Anchor_active.svg);
+} 
+
+.icon2{
+    background-image: url(icon/Diamond.svg);
+    padding-bottom: 20px;
+}
+.box:hover .icon2{
+    background-image: url(icon/Diamond_active.svg);
+}
+
+.icon3{
+    background-image: url(icon/Eyeglasses.svg);
+}
+.box:hover .icon3{
+    background-image: url(icon/Eyeglasses_active.svg);
+}
+
+.icon4{
+    background-image: url(icon/Monitor.svg);
+}
+.box:hover .icon4{
+    background-image: url(icon/Monitor_active.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+
+    width: 940px;
+    height: 138px;
+    background-color: white;
+    margin: 0 auto;
+}
