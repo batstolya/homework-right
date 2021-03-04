@@ -1,0 +1,103 @@
+
+ @font-face {
+    font-family: ProximaNova-Light; /* Имя шрифта */
+    src: url(font/ProximaNova-Light.otf) format("opentype");; /* Путь к файлу со шрифтом */
+    }    
+     
+
+ @font-face {
+    font-family: ProximaNova-Regular; /* Имя шрифта */
+    src: url(font/Proxima-Nova-Regular.ttf); /* Путь к файлу со шрифтом */
+   }     
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'ProximaNova-Light';
+   
+}
+
+.content {
+    width: 1100px;
+    height: 289px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.figa {
+    width: 230px;
+    margin-top: 56px;
+    text-align: center;
+}
+
+.text {
+    font-family: "ProximaNova-Regular" ;
+    font-weight: bold;
+    text-transform:uppercase;
+    padding-top: 4px;
+     
+}
+
+p {
+    line-height: 1.4;
+    
+}
+.text+p{
+    color: #9d9d9d;
+}
+
+.icon {
+    width: 63px;
+    height: 63px;
+    background-color: #1275b9;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid;
+    border-radius: 50%;
+    border: 1px #1275b9 solid;
+    /* text-align: center; */
+    transition: background-color .3s ease-in-out, background-image .3s ease-in-out;
+    margin: 0 auto;
+    /* (что бы было по центру) */
+}
+
+.icon:hover {
+    background-color: white;
+}
+
+.icon-1 {
+    background-image: url(images/Tablet.svg);
+}
+
+.icon-1:hover {
+    background-image: url(images/Tablet_active.svg);
+}
+
+.icon-2 {
+    background-image: url(images/Settings.svg);
+}
+
+.icon-2:hover {
+    background-image: url(images/Settings_active.svg);
+}
+
+.icon-3 {
+    background-image: url(images/Dashboard.svg);
+}
+
+.icon-3:hover {
+    background-image: url(images/Dashboard_active.svg);
+}
+
+.figa-1 {
+    margin-left: 71px;
+}
+
+.figa-3 {
+    margin-right: 71px;
+}
