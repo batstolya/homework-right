@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Pacifico"; 
+    src: url("/font/ofont.ru_Pacifico.ttf") format("truetype"); 
+    } 
+
+@font-face {
+    font-family: "Raleway-Heavy"; 
+    src: url("/font/Raleway-Heavy.ttf") format("truetype"); 
+    } 
+    
+    
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Первая section */
+
+.fresh-life{
+    width: 1500px;
+    background:url(/imag/section-1.png) no-repeat ; 
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1170px;
+
+    margin: 0 auto;
+}
+
+.header{
+    height: 147px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-family: "Pacifico";
+    font-size: 50px;
+    
+}
+
+.header__nav{
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.header__link{
+    font-size: 16px;
+    color: #262626;
+
+    margin-left: 37px;
+    text-decoration: none;
+}
+
+.header__link:hover{
+    border-top: 3px solid red;
+    padding-top: 4px;
+}
+
+.link_active{
+   
+    border-top: 3px solid red;
+    padding-top: 4px;
+}
+      
+/* Block Main */
+
+.main__content{
+    width: 381px;
+}
+
+.main__title{
+    font-size: 60px;
+    font-family: "Raleway-Heavy"; 
+
+    margin-top: 200px;
+}
+
+.main__subtitle{
+    font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #262626;
+    line-height: 1.6em;
+
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.main__button{
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    border: none;
+    background-color: #ff6033;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    font-family: 'Raleway';
+
+    margin-top: 27px;
+    margin-bottom: 295px;
+    margin-left: 5px;
+}
+
+.footer__scroll{
+   text-align: center;
+   padding-bottom: 69px;
+   
+}
+
+/* вторая section */
+
+.about-us{
+    background:url(/imag/section-2.png) no-repeat ;
+    background-size: cover;
+    width: 1500px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.about-us__content{
+    width: 500px;
+    padding-top: 158px;
+    padding-left: 837px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us__title{
+    font-size: 90px;
+    font-family: "Raleway";
+    font-weight: 700; 
+    color: #fff;
+    
+
+    
+}
+
+.about-us__subtitle{
+    font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.6em;
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+  
+.about-us__text{
+    font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.6em;
+    margin: 0;
+
+}
