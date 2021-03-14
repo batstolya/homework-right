@@ -1,0 +1,105 @@
+@font-face {
+    font-family: miso-bold; /* Имя шрифта */
+    src: url(/Miso/miso-bold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: miso-light; /* Имя шрифта */
+    src: url(/Miso/miso-light.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    margin-top: 60px;
+}
+
+.conteiner {
+    width: 1200px;
+    background-color: #fdde7e;
+    margin: 0 auto;
+
+height: 600px;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+.item {
+    width: 360px;
+    height: 442px;
+    border-radius: 4px;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+
+    /* padding-top: 39px;
+    padding-bottom: 38px; */
+
+    display: flex;    
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.item:nth-child(2){
+    height: 500px;
+}
+
+
+
+
+
+span{
+    font-family: "miso-bold";
+    font-size: 70px;
+    color: #02995b;
+
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+h2 {
+    font-family: "miso-light";
+    font-size: 56px;
+ 
+    
+    padding: 0px;
+    margin: 0px;
+
+    
+}
+
+p{
+    font-family: "miso-light";
+    font-size: 20px;
+
+
+    padding: 0 0 10px 0;
+    margin: 0px;
+
+}
+
+.first{
+    padding: 0 0 16px 0;
+}
+
+
+
+img{
+    color: grey;
+    padding-left: 10px;
+}
+
+
+.conteiner:hover .item {
+    opacity: 0.4;
+    
+}
+
+.conteiner:hover .item:hover{
+    opacity: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: HansKendrick; /* Имя шрифта */
+    src: url(/font/NeueHansKendrick-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: License; /* Имя шрифта */
+    src: url(/font/License/.ttf) /* Путь к файлу со шрифтом */
+   }
+
+
+body{
+    background-color: #e2e7ec;
+    box-sizing: border-box;
+    margin-top: 86px;
+}
+
+.container {
+    width: 1120px;
+    padding-bottom: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+    
+}
+
+
+.box1 {
+    width: 740px;
+    height: 520px;
+    background-color: white;
+    background-image: url(/imag/Rectangle.png);
+    
+}
+
+
+.item{
+    width: 450px;
+    padding-top: 370px;
+    padding-left: 58px;
+    color: white;
+}
+
+h2{
+    font-family: "HansKendrick";
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.box{
+    width: 360px;
+    height: 520px;
+    background-color: white;
+    
+    box-sizing: border-box;
+    
+
+}
+
+p{
+    font-family: "License";
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #898989;
+}
+
+h1{
+    font-family: "HansKendrick";
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.test_position{
+    padding-top: 25px;
+}
+
+.test {
+    padding-left: 28px;
+    width: 290px;
+    
+}
+
+footer{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    line-height: 2.5em;
+    padding-left: 19px ;
+    padding-bottom: 100px;
+}
+.fooret{
+    
+
+    color: #99a5b0;
+    font-family: "HansKendrick";
+    font-size: 13px;
+    text-transform: uppercase;
+}
