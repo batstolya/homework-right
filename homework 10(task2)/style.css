@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Lato-bold"; 
-    src: url("/font/lato\ bold.ttf") format("truetype"); 
+    src: url("font/lato\ bold.ttf") format("truetype"); 
     } 
 
 @font-face {
     font-family: "Lato-light"; 
-    src: url("/font/lato\ light.ttf") format("truetype"); 
+    src: url("font/lato\ light.ttf") format("truetype"); 
     } 
 
 
@@ -71,17 +71,18 @@ hr{
     position:relative;   
     width: 269px;
     height: 268px;
-    background-image:url(/imag/1.png);
+    background-image:url(imag/1.png);
+    transition: all 0.3s ease-out ; 
 }
 
 .block-img2{
-    background-image:url(/imag/2.png);
+    background-image:url(imag/2.png);
 }
 .block-img3{
-    background-image:url(/imag/3.png);
+    background-image:url(imag/3.png);
 }
 .block-img4{
-    background-image:url(/imag/1.png);
+    background-image:url(imag/1.png);
 }
 
 
