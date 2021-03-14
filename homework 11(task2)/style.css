@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "MuseoSansRounded100"; 
-    src: url("/font/MuseoSansRounded100.otf") format("opentype"); 
+    src: url("font/MuseoSansRounded100.otf") format("opentype"); 
     } 
 
 
@@ -14,7 +14,7 @@
 
 body{
     background: rgb(102,61,151);
-    background: url(/imag/bagraund.png)  no-repeat 0 0 / cover;
+    background: url(imag/bagraund.png)  no-repeat 0 0 / cover;
 }
 
 
@@ -56,11 +56,50 @@ main{
     margin-left:140px;
 }
 
+/* Кнопка */
+.buttons {
+    width: 80px;
+    margin-left: 136px;
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    transform: scaleY(1.7) scaleX(1.2);
+    border: 2px solid #7b8088;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-black {
+    background-color: #1f273f;
+}
+.button-white {
+    background-color: #fff;
+}
+.button-red {
+    background-color: #ed3333;
+}
+.button-aqua {
+    background-color: #29e3ea;
+}
 
 .sidebar{
     font-family: "MuseoSansRounded100";
-    margin-left: 8px;
-   
+    position: absolute;
+    top: 73px;
+    left: 444px;
+    width: 234px;
 
 }
 
@@ -76,16 +115,9 @@ main{
     color: #5e646d;
 }
 
-.sidebar__icon{
-    font-size: 11px;
-}
-
-.sidebar__icon--active{
-color: #f7bf16;
-}
 
 .sidebar__list{
-    margin-top: 10px;
+    margin-top: 45px;
 }
 
 .sidebar__form{
@@ -108,7 +140,7 @@ color: #f7bf16;
 .sidebar__button{
     width: 185px;
     height: 39px;
-    margin-top: 13px;
+    margin-top: 30px;
     color: #5e646d;
     border: 1px solid #4f5560;
     background-color: #202835;
@@ -118,3 +150,37 @@ color: #f7bf16;
     cursor: pointer;
 }
 
+
+
+/* rating */
+.rating {   
+    position: absolute;
+ 
+    right: 163px;
+    top: 96px;
+}
+
+.rating label {
+    float: right;
+    cursor: pointer;
+}
+
+.rating label:not(:first-of-type) {
+    padding-right: 1px;
+}
+
+.rating label:before {
+    content: "\2605";
+    font-size: 16px;
+    color: #9da1a6;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating input:checked ~ label:before, 
+.rating:not(:checked) > label:hover:before, 
+.rating:not(:checked) > label:hover ~ label:before {
+    color: #f7bf16;
+}
