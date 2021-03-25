@@ -71,11 +71,7 @@ section{
     padding-bottom: 60px;
 }
 
-/* .form__size{
-    width: 500px;
-    height: 50px;
-    
-} */
+
 
 input{
     width: 500px;
@@ -94,6 +90,7 @@ input{
 input:focus{
     border: 2px solid #00c4c4;
     outline: none;
+    border-left: 5px solid #355b82;
 }
 
 input::placeholder{
@@ -125,7 +122,7 @@ textarea::placeholder{
 textarea:focus{
     border: 2px solid #00c4c4;
     outline: none;
-    
+    border-left: 5px solid #355b82;
 }
 
 
