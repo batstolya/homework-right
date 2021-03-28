@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/b7d454c72a.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <div class="logo">
+            <img src="imag/logo.png" alt="">
+        </div>
+        <div class="main-content">
+            <div class="main-content__image image">
+                <img id="myImage" class="image__pic" src="imag/pic.png" alt="">
+                 
+                <div class="buttons">
+                    <button class="button button-black" onclick="document.getElementById('myImage').src='imag/Nike-SB-black.png'"></button>
+                    <button class="button button-white" onclick="document.getElementById('myImage').src='imag/Nike-SB-white.png'"></button>
+                    <button class="button button-red" onclick="document.getElementById('myImage').src='imag/Nike-SB-red.png'"></button>
+                    <button class="button button-aqua" onclick="document.getElementById('myImage').src='imag/Nike-SB-aqua.png'"></button>
+                </div>
+            </div>
+            </div>
+            <div class="main-content__sidebar sidebar">
+                <div class="sidebar__title">Nike SB Stefan Janoski Max</div>
+                <div class="sidebar__subtitle">Unisex Skateboarding Shoe (Men's Sizing)</div>
+            <form action="post">
+                    <div class="rating">
+                        <input type="radio" id="star5" name="rating" value="5" />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" />
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1" />
+                        <label for="star1"></label>
+                    </div>
+               
+                <div class="sidebar__list">
+                    <div class="sidebar__form form" method="post" action="">
+                        <span><select class="form__select" name="select">
+                         <option>Size</option>
+                         <option>40</option>
+                         <option>41</option>
+                         <option>42</option>
+                         <option>43</option>
+                        </select></span>
+                       
+                        <span><select class="form__select" name="select">
+                         <option>Qty</option>
+                         <option>1</option>
+                         <option>2</option>
+                         <option>3</option>
+                        </select></span>
+                    </div>
+                </div>
+                <button type="submit" class="sidebar__button">Add to cart</button>
+            </form>
+                   
+            </div>
+        </div>
+    </main>
+</body>
+</html>
