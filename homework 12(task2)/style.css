@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+section{
+    background-color: #dfe9eb;
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-block{
+    display: block;
+}
+
+.b-active{
+    border-bottom: 2px solid #e66a64;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.mr-25{
+    margin-right: 25px;
+}
+
+.mt-53{
+    margin-top: 53px;
+}
+.ml-24{
+    margin-left: 24px;
+}
+.mt-23{
+    margin-top: 23px;
+}
+
+.mt-4{
+    margin-top: 4px;
+}
+.card__container{
+    width: 262px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.card{
+    background: url(/img/bagr.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.card__header{
+    color: #fbf6e4;
+}
+
+.header__sigh-in{
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #fbf6e4;
+}
+.header__join-us{
+    margin-left: 25px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #fbf6e4;
+}
+
+
+.card-main__user input{
+    display: block;
+    width: 100%;
+    height: 42px;
+    border: 2px solid #b4c1c4;
+    transition: border-color 0.3s;
+    outline: none;
+    padding: 14px 6px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 44px;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #9581c5;
+    font-weight: 400;
+    background: transparent;
+}
+.card__to-keep{
+    font-size: 13px;
+}
+
+
+
+/*checkbox */
+input[name='checkbox'] {
+    width: 0;
+    height: 0;
+    position: relative;
+    float: left;
+    margin-left: 0px;
+  }
+  input[name='checkbox']::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #23ae92;
+    border: 1px solid transparent;
+  }
+  input[name='checkbox']::before {
+      content: '';
+      display: block;
+      opacity: 0;
+      transition: opacity 0.3s;
+  }
+  input[name='checkbox']:checked::before {
+    width: 3px;
+    height: 7px;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    opacity: 1;
+    transform: rotate(45deg);
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+  }
+  /*END checkbox */
+
+
+
+
+  .card__submit {
+    display: block;
+    width: 100%;
+    height: 42px;
+    color: #fff;
+    background-color: #23ae92;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    outline: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 42px;
+  }
+  
+
+  .card-footer__forgot-pass{
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #918bc3;
+    border-bottom: 1px solid #423bb0;
+  }
+
+  .card-footer__greate{
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #918bc3;
+    border-bottom: 1px solid #423bb0;
+  }

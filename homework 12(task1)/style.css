@@ -1,0 +1,175 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Raleway-Bold"; 
+    src: url("/font/Raleway-Bold.ttf") format("truetype"); 
+    } 
+
+
+@font-face {
+    font-family: "Raleway-Light"; 
+    src: url("/font/Raleway-Light.ttf") format("truetype"); 
+    } 
+
+@font-face {
+    font-family: "Pacifico"; 
+    src: url("/font/ofont.ru_Pacifico.ttf") format("truetype"); 
+    } 
+    
+    
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+.p-left{
+    padding-left: 170px;
+}
+ 
+.d-flex{
+    display: flex;
+}
+
+.p-top{
+    padding-top: 100px;
+}
+
+section{
+    width: 1500px;
+  
+    background: url(img/img.png)  no-repeat 0 0 / cover ;
+    margin: 0 auto;
+}
+
+.section__container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+.text__title{
+    font-family: "Raleway-Bold"; 
+    font-size: 90px;
+    margin: 0;
+    text-align: center;
+}
+.text__subtitle{
+    font-family: "Raleway-Light"; 
+    font-size: 17px;
+    width: 370px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+
+
+input{
+    width: 500px;
+    height: 50px;
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: rgba(0, 196, 196, 30%);
+    border: none;
+    font-family: "Raleway-Light"; 
+    font-size: 15px;
+    padding-left: 20px;
+    
+}
+
+input:focus{
+    border: 2px solid #00c4c4;
+    outline: none;
+    border-left: 5px solid #355b82;
+}
+
+input::placeholder{
+    color: #fff;
+    
+}
+
+
+
+textarea{
+    width: 500px;
+    height: 250px;
+    color: #fff;
+    background-color: rgba(0, 196, 196, 30%);
+    border: none;
+    font-family: "Raleway-Light"; 
+    font-size: 15px;
+    margin-bottom: 120px;
+    padding-left: 20px;
+    padding-top: 20px;
+ 
+}
+
+textarea::placeholder{
+    color: #fff;
+    
+}
+
+textarea:focus{
+    border: 2px solid #00c4c4;
+    outline: none;
+    border-left: 5px solid #355b82;
+}
+
+
+.desc__title{
+    font-family: "Raleway-Bold"; 
+    font-size: 17px;
+}
+
+.desc__subtitle{
+    font-family: "Raleway-Light"; 
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+/* Footer */
+.footer{
+    color: #b9b9b9;
+    font-family: "Raleway-light"; 
+
+    width: 1170px;
+    height: 90px;
+   
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin: 0 auto;
+
+}
+
+.footer__text{
+    font-size: 16px;
+}
+
+.footer__logo{
+    font-family: "Pacifico"; 
+    font-size: 25px;
+}
+
+.footer__slogan{
+    font-size: 15px;
+}
+
+.love--red{
+    color: #f12b55;
+    font-family: "Raleway-Bold"; 
+}
+
+/*END Footer */

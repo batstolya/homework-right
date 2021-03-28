@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="card__container">
+                <header class="card__header header d-inline-block mt-53">
+                    <a href="#" class="header__sigh-in b-active">Sigh in</a>
+                    <a href="#" class="header__join-us">Join us</a>
+                </header>
+                <main class="card-main">
+                    <form action="/api/payment" method="POST">
+                        <div class="card-main__user mt-53">
+                            <label for="">
+                                <span class="d-block">Username</span>
+                                <input type="text" name="text" required>
+                            </label>
+                        </div>
+                    
+                        <div class="card-main__user">
+                            <label for="">
+                                <span class="d-block">Password</span>
+                                <input type="password" name="password" required>
+                            </label>
+                        </div>
+                        <div class="card__to-keep d-flex">
+                                <div class="inline">
+                                    <input type="checkbox" name="checkbox" value="1">
+                                </div>
+                                <span class="ml-24 mt-4 ">Keep me signed in</span>
+                                
+                        </div>
+                        
+                        <button class="card__submit" type="submit">Sign in</button>
+                    </form>
+                </main>
+                <footer class="card-footer d-flex justify-content-between mt-23">
+                    <a class="card-footer__forgot-pass" href="#">Forgot password</a>
+                    <a class="card-footer__greate" href="#">Create an accaunt</a>
+                </footer>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
