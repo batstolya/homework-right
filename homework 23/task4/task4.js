@@ -1,11 +1,12 @@
 let year = prompt ("Введите год для проверки", 0);
 
-let yearYes = year % 4 == 0;
+let yearYes = year % 4  == 0;
+let yearTrue = year % 400  == 0;
 let yearNot = year % 100 !== 0;
 
 
 
-if (yearYes && yearNot){
+if (yearYes && yearNot || yearTrue && yearNot){
     alert("Этот год високосный!");
 } else {
     alert('Этот год не високосный!');
