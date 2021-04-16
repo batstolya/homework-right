@@ -6,8 +6,8 @@ function getFormattedSecond (h,m,s){
     return result;
 }
 
-let h = prompt("Введите часы!"); 
-let m = prompt("Введите минуты!");
-let s = prompt("Введите секунды!");
+let h = +prompt("Введите часы!"); 
+let m = +prompt("Введите минуты!");
+let s = +prompt("Введите секунды!");
 
 alert(getFormattedSecond(h, m, s));
